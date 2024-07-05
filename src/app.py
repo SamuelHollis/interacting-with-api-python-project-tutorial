@@ -14,7 +14,7 @@ client_secret = os.environ.get("CLIENT_SECRET")
 spotify = spotipy.Spotify(auth_manager = SpotifyClientCredentials(client_id = client_id, client_secret = client_secret))
 
 #saving artist url
-response = spotify.artist_top_tracks("3QJzdZJYIAcoET1GcfpNGi")
+response = spotify.artist_top_tracks("5me0Irg2ANcsgc93uaYrpb")
 
 #Taking interest information
 keys_of_interest = {"name", "popularity", "duration_ms"}
